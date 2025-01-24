@@ -1,0 +1,43 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Flask specific files
+instance/
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# PyCharm and other IDE settings
+.idea/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+coverage.xml
+*.coveragerc
+
+# Package distribution
+dist/
+build/
+*.egg-info/
+
+# Flask-Migrate database migrations
+migrations/
+
+# Environment variable files (e.g., .env for storing secrets)
+.env
